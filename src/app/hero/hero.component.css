@@ -7,7 +7,7 @@
   background-image: url("../../assets/ftr-blur.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  height: 85vh;
+  height: 80vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -21,21 +21,23 @@
   background-color: #3498db !important;
   border-color: white;
   font-size: 1.25rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 .hero-content {
   width: 100%;
   justify-content: center;
   align-items: center;
 }
-h2{
+h2 {
   color: white;
+  font-weight: 400;
 }
 .image-container {
   margin-top: -4rem;
 }
 .header-copy {
-  padding: 1rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
   text-align: center;
 }
 /* .header-text {
