@@ -8,17 +8,9 @@ import { HeroComponent } from './hero/hero.component';
 import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeroComponent,
-    CarouselComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  declarations: [AppComponent, HeroComponent, CarouselComponent],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
